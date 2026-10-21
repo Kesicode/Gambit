@@ -2,3 +2,15 @@ packages:
   - "client"
   - "server"
   - "types"
+allowBuilds:
+  '@prisma/client': true
+  '@prisma/engines': true
+  argon2: true
+  bufferutil: true
+  prisma: true
+  unrs-resolver: true
+  utf-8-validate: true
+minimumReleaseAgeExclude:
+  - "@neon/config@1.9.3"
+  - "@neon/env@1.6.4"
+  - "@neon/sdk@7.4.0"
