@@ -12,7 +12,7 @@ import { init as initSocket } from "./socket/index.js";
 
 const allowedOrigins = (
     process.env.CORS_ORIGIN ||
-    "http://localhost:3000,http://127.0.0.1:3000,https://gambit.vercel.app"
+    "http://localhost:3000,http://127.0.0.1:3000,https://gambit.vercel.app,https://gambit-club.vercel.app"
 )
     .split(",")
     .map((origin) => origin.trim().replace(/\/$/, ""));
