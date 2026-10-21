@@ -33,8 +33,8 @@ This guide details step-by-step instructions for deploying the **Gambit** platfo
 1. **Create Web Service**: In Render Dashboard, click **New +** -> **Web Service** and connect your repository.
 2. **Root Directory**: `server`
 3. **Runtime**: `Node`
-4. **Build Command**: `pnpm --filter server build` (or `npm run build`)
-5. **Start Command**: `node dist/server.js`
+4. **Build Command**: `npm install && npm run build`
+5. **Start Command**: `npm start` (or `node dist/server.js`)
 6. **Environment Variables**:
 
 | Variable | Value | Description |
