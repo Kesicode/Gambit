@@ -10,7 +10,7 @@ if (process.env.NODE_ENV !== "production") {
 const getApiUrl = () =>
   process.env.API_URL ||
   process.env.NEXT_PUBLIC_API_URL ||
-  "https://gambit.onrender.com";
+  "https://gambit-chess-api.onrender.com";
 
 const handler = NextAuth({
   providers: [
