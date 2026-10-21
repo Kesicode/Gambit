@@ -1,6 +1,6 @@
 # ♔ Gambit - Online Multiplayer Chess Platform
 
-### 🏎️ Try it out -> [gambit.vercel.app](https://gambit-club.vercel.app)
+### 🏎️ Try it out -> [gambit-club.vercel.app](https://gambit-club.vercel.app)
 
 Gambit is an interactive online chess platform that let players challenge others in real-time, watch ongoing games, and enjoy smooth animations for an immersive experience.
 
